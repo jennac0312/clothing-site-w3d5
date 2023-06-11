@@ -35,7 +35,7 @@
 
 .productContainer{
     border: 2px solid red;
-    height: 740px;
+    /* height: 740px; */
     margin: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -70,7 +70,7 @@
 
 .productDiv{
     border: 2px solid orange;
-    height: 350px;
+    /* height: 350px; */
     width: 30%;
     margin: 10px
 }
@@ -85,3 +85,15 @@
     width: 60%
 }
 
+img{
+    height: inherit;
+    width: 100%;
+}
+
+p, h3{
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}

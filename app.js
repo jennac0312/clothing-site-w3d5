@@ -35,7 +35,7 @@ let majorContainer = {
             },
         ],
         textDescription: `Browse our entire selection of men's clothing at H&M. From basics and loungewear to sweaters and suiting, we have something for every season and occasion. Whether you prefer bright colors and loud patterns or neutral, solid colors, find the clothes that match your style.`,
-        lowImage: ''
+        lowImage: 'https://images.unsplash.com/photo-1637548739071-7c24bbcab218?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
     },
     womens: {
         headImage: "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
@@ -67,39 +67,39 @@ let majorContainer = {
             },
         ],
         textDescription: `Find the latest trends of the season and update your wardrobe with new-and-improved clothing and accessories from H&M. Take a look at our plus sizes and discover jeans, dresses, occasion wear and more must-haves in flattering fits. Discover petite dresses and bottoms in an array of styles that will suit you perfectly. From tops, to skirts and jeans, we have you covered for all kinds of occasions. Explore the full range of colors, fabrics and styles now.`,
-        lowImage: ''
+        lowImage: 'https://images.unsplash.com/photo-1520960858461-ac671067213e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=897&q=80'
     },
     kids: {
         headImage: "https://images.unsplash.com/photo-1594608661623-aa0bd3a69d98?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=648&q=80",
-        optionTags: ["BackPacks", "School", "Sneakers", "Toys"],
+        optionTags: ["BackPacks", "School", "Shoes", "Toys"],
         productImages: [
             {
+                name: 'BackPacks',
+                pic: 'https://images.unsplash.com/photo-1576252951301-3b7b1e4278d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=415&q=80',
+            },
+            {
+                name: 'School',
+                pic: 'https://images.unsplash.com/photo-1518826778770-a729fb53327c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+            },
+            {
                 name: 'Sneakers',
-                pic: 'https://images.unsplash.com/photo-1527010154944-f2241763d806?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80',
+                pic: 'https://images.unsplash.com/photo-1573309463328-ec43614b3def?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
             },
             {
-                name: 'Boots',
-                pic: 'https://images.unsplash.com/photo-1638247025967-b4e38f787b76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80',
+                name: 'Toys',
+                pic: 'https://images.unsplash.com/photo-1484820540004-14229fe36ca4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
             },
             {
-                name: 'Flannels',
-                pic: 'https://images.unsplash.com/photo-1638718297700-e828368a54e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
-            },
-            {
-                name: 'Scarves',
-                pic: 'https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
-            },
-            {
-                name: 'Hoodies',
-                pic: 'https://images.unsplash.com/photo-1509942774463-acf339cf87d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
+                name: 'Coats',
+                pic: 'https://images.unsplash.com/photo-1591851395349-6d8c2fe76e24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80',
             },
             {
                 name: 'Hats',
-                pic: 'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=423&q=80',
+                pic: 'https://images.unsplash.com/photo-1529339604447-a0617a5eafe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=377&q=80',
             },
         ],
         textDescription: `Our dresses and skirts for your baby girl come in peppy patterns and charming details, all made from gentle fabrics and designed for active, fun-filled days.`,
-        lowImage: ''
+        lowImage: 'https://images.unsplash.com/photo-1498940757830-82f7813bf178?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80'
     }
 }
 // ----------------------------------------
@@ -237,9 +237,8 @@ const changeOptions = (who) => {
     for(let i = 0; i < who.length; i++){
         console.log(who[i])
         console.log(options[i])
-        options[i].innerText = who[i]
+        options[i].innerText = who[i].toUpperCase()
     }
-
 }
 
  console.log('mens tags:',majorContainer.mens.optionTags.length)
@@ -261,35 +260,40 @@ const changeImages = (who) => {
     } else if(who === 'kids'){
         who = majorContainer.kids.productImages
     }
-    
-    // iterate through both productDivs and product images (yes, i realize i can use length of productDivs array since the length are =... again this would not work if who.length > productDivs.length..... does not create more divs on the fly)
 
     for(let i = 0; i < who.length; i++){
-        // console.log('major container',who[i].pic)
-
         // feels like im cheating but works lol
-        productDiv[i].innerHTML = `<img src='${who[i].pic}' >`
-        // console.log('html div',productDiv[i])
-        // imgTag.src.textContent = who[i].pic
+        productDiv[i].innerHTML = `<img src='${who[i].pic}' > <p class="bold">${who[i].name}</p>`
+    }
+}
+
+// change textDescription
+const changeTextDescription = (who) => {
+    if(who === 'mens'){
+        who = majorContainer.mens.textDescription
+    } else if(who === 'womens'){
+        who = majorContainer.womens.textDescription
+    } else if(who === 'kids'){
+        who = majorContainer.kids.textDescription
     }
 
-    who.forEach((image) => {
-        console.log(image.pic)
-    })
-    // checking to see if productDiv has img child
-    // productDiv[1].appendChild(imgTag)
-    // console.log(productDiv[1].firstElementChild)
-
-
-    // append img tag to each productDiv ...
-    // change img src to productImages[i].pic
-
+    // personal preference. dont like having loose words in a div lol
+    textBox.innerHTML = `<h3> ${who} </h3>`
 }
-changeImages('mens')
 
+// change low pic
+const changeLowPic = (who) => {
+    if(who === 'mens'){
+        who = majorContainer.mens.lowImage
+    } else if(who === 'womens'){
+        who = majorContainer.womens.lowImage
+    } else if(who === 'kids'){
+        who = majorContainer.kids.lowImage
+    }
 
-// array of objects
-// console.log('mens product images:',majorContainer.mens.productImages[1].pic)
+    pic.src = who
+    console.log(pic)
+}
 
 
 // working functions called inside one main function...
@@ -297,7 +301,9 @@ changeImages('mens')
 const changeAll = (who) => {
     changeTopPic(who)
     changeOptions(who)
-
+    changeImages(who)
+    changeTextDescription(who)
+    changeLowPic(who)
 }
 
 
