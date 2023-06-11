@@ -125,6 +125,7 @@ console.log(allButtons)
 
 // "if its text we can replace it. if its an image we need to create a new image" -jordan
 
+
 // booleans to check category clicked ... didnt even use
 let isMens
 let isWomens
@@ -159,6 +160,15 @@ allButtons.forEach((button) => {
     })
 })
 
+
+// working functions called inside one main function...
+const changeAll = (who) => {
+    changeTopPic(who)
+    changeOptions(who)
+    changeImages(who)
+    changeTextDescription(who)
+    changeLowPic(who)
+}
 
 // change top pic
 const changeTopPic = (who) => {
@@ -246,21 +256,6 @@ const changeLowPic = (who) => {
 }
 
 
-// working functions called inside one main function...
-
-const changeAll = (who) => {
-    changeTopPic(who)
-    changeOptions(who)
-    changeImages(who)
-    changeTextDescription(who)
-    changeLowPic(who)
-}
-
-
-
-
-
-
 
 // factory function attempt lol
 
@@ -269,36 +264,3 @@ const elementFactory = (parent,pAttributes,child,cAttributes) => {
     let childElement = createElement(`${child}`)
     childElement.addAttributes('')
 }
-
-
-
-
-// allButtons.forEach((button) => {
-//     button.addEventListener('click', () => {
-//         if(isMens || isWomens || isKids){
-//             changeTopPic(clickedCategory)
-//             console.log(topPic)
-//         }
-//     })
-// })
-
-
-// populate products
-// const populateProducts = (category) => {
-//     console.log(category)
-//     products.forEach((img) => {
-//         // console.log(img)
-//         majorContainer.mens.productImages.forEach((product,img) => {
-//             console.log(product)
-//             img.src = product.pic
-//             console.log(img)
-//         })
-//         console.log(img)
-//     })
-// }
-
-// console.log(majorContainer.mens.productImages)
-
-// majorContainer.mens.productImages.forEach((product) => {
-//     console.log(product.pic)
-// })
