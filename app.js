@@ -105,10 +105,7 @@ let majorContainer = {
 // ----------------------------------------
 
 let mainImageDiv = document.querySelector('.mainImage')
-console.log(mainImageDiv)
-
 const topPic = document.querySelector('.topPic')
-console.log(topPic)
 // let option = document.querySelector('.options')
 let options = document.querySelectorAll('.choice')
 let productDiv = document.querySelectorAll('.productDiv')
@@ -128,46 +125,7 @@ console.log(allButtons)
 
 // if its text we can replace it. if its an image we need to create a new image
 
-// const changeTopPic = () => {
-//     console.log('clicked mens')
-//     // create image
-//     let newImage = document.createElement('img')
-//         newImage.setAttribute('src', majorContainer.mens.headImage)
-//         newImage.setAttribute('class','topPic')
-//     // replace with current image
-//     mainImage.replaceWith(newImage)
-
-// }
-// const changeOptions = () => {
-//     let tabz = document.querySelector('div.choice')
-//     tabz.remove()
-//     // doesnt work
-//     // // miniOp.replaceWith("") 
-//     // option.remove()
-//     let newOption = document.createElement('div')
-//     newOption.setAttribute('class','options')
-
-//     // // let text = document.querySelector('.options2')
-
-//     majorContainer.mens.optionTags.forEach((tagName) => {
-//         // create elements
-//         let text = document.createElement('div')
-//         text.innerHTML = tagName
-
-//         // replace element with new element
-//         newOption.append(text)
-//     })
-// }
-// const product = () => {
-//     majorContainer.mens.productImages.forEach((obj) => {
-//         let shopBox = document.createElement('div')
-//         shopBox.setAttribute('scr', obj.pic)
-//         productBox.append(shopBox)
-//     })
-
-// }
-
-// booleans to check category clicked
+// booleans to check category clicked ... didnt even use
 let isMens
 let isWomens
 let isKids
@@ -224,14 +182,6 @@ const changeOptions = (who) => {
     } else if(who === 'kids'){
         who = majorContainer.kids.optionTags
     }
-
-// didnt work.. replaces with last option who times ... realized i nested in wrong direction.. wont exit forEach loop until for loop runs completelty
-    // options.forEach((option) => {
-    //     for(let i = 0; i < who.length; i++){
-    //         option.innerText = who[i]
-    //     }
-    // })
-
 
 // realized who length matches options length so this is easy solution... but what if i had to create new options tags on the fly? this wouldnt work
     for(let i = 0; i < who.length; i++){
