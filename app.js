@@ -123,7 +123,7 @@ const kidsButton = document.querySelector('.kids')
 
 console.log(allButtons)
 
-// if its text we can replace it. if its an image we need to create a new image
+// "if its text we can replace it. if its an image we need to create a new image" -jordan
 
 // booleans to check category clicked ... didnt even use
 let isMens
